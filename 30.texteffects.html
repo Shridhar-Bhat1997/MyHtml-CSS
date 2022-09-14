@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+<title> Text effects </title>
+<!-- 
+  overflow:scroll-The overflow is clipped, but a scroll-bar is added to see the 
+  rest of the content.
+  The text-overflow: specifies how overflowed content that is not displayed 
+  should be signaled to the user. It can be clipped, display an ellipsis (...), 
+  or display a custom string.
+  white-space: specifies how white-space inside an element is handled.
+-->
+<style>
+  .bluebox{
+      background-color: #3A5795;
+	  color:white;
+	  height:100px;
+	  width:auto;
+	  overflow:scroll;
+	  white-space:nowrap;
+	  text-overflow:ellipsis;
+	  }
+	  
+	.bluebox:hover{
+	   overflow:visible;
+	   }
+	   
+   .yellowbox{
+   background-color: rgb(222,224,85);
+	  height:100px;
+	  width:auto;
+	  text-decoration:overline;
+	  font-size:1cm;
+	  font-family:serif;
+	  }
+	  
+    .greenbox{
+	background-color:green;
+	  color:white;
+	  height:100px;
+	  width:auto;
+	  letter-spacing:10px;
+	  text-shadow:3px 3px 3px black;
+	  text-indent:50px;
+	  font-family:monospace;
+	  }
+	  
+	.great{
+	   background-color:red;
+	   font-size:200%;
+	   }
+   
+</style>
+</head>
+
+<body>
+<div class="bluebox">
+ <p>  Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook</p>
+</div>
+<div class="yellowbox">
+ <p> Microsoft </p>
+</div>
+<div class="greenbox">
+ <p> Wipro </p>
+</div>
+</body>
+</html>

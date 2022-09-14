@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+<title> Text decoration </title>
+
+<!-- 
+  text-decoration: specifies the decoration added to text.
+  letter-spacing: Defines the spacing between the characters of a block of text.
+  text-shadow: adds shadows to text.
+  text-indent: sets the length of empty space (indentation) that is put before 
+  lines of text in a block.
+  -->
+  
+<style>
+  .bluebox{
+      background-color: #3A5795;
+	  color:white;
+	  height:100px;
+	  width:auto;
+	  text-decoration:underline;
+	  font-weight:bold;
+	  }
+	  
+   .yellowbox{
+   background-color: rgb(222,224,85);
+	  height:100px;
+	  width:auto;
+	  text-decoration:overline;
+	  font-style:italic;
+	  font-size:1cm;
+	  }
+	  
+    .greenbox{
+	background-color:green;
+	  color:white;
+	  height:100px;
+	  width:auto;
+	  letter-spacing:50px;
+	  text-shadow:3px 3px 3px black;
+	  text-indent:100px;
+	  }
+	  
+	.great{
+	   background-color:red;
+	   font-size:200%;
+	   }
+   
+</style>
+</head>
+
+<body>
+<div class="bluebox">
+ <p> Facebook is <span class="great"> great.<span> </p>
+</div>
+<div class="yellowbox">
+ <p> Microsoft </p>
+</div>
+<div class="greenbox">
+ <p> Wipro </p>
+</div>
+</body>
+</html>
